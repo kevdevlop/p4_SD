@@ -132,7 +132,7 @@ int main(int argc, char **argv)
                                 Tmk_lock_release(0); 
                                 
                             }
-                            getchar();
+                            
                             printf("\nListo!! Boletos Reservados\n");
                             shared->turn++; 
                               
@@ -164,7 +164,7 @@ int main(int argc, char **argv)
                   case 3:
                             printf("\nHasta Luego...\n");
                             shared->turn++; 
-                            //exit(0);
+                            
                             break;
               }
        }        
